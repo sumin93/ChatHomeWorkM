@@ -20,11 +20,12 @@ public class Window extends JFrame {
 
 
         JTextArea conversation = new JTextArea();
-        conversation.setBounds(10,10,370,180);
-        conversation.setEditable(false);
+        //conversation.setBounds(10,10,370,180);
+        //conversation.setEditable(false);
         JScrollPane scroll = new JScrollPane(conversation);
+        scroll.setBounds(10,10,370,180);
         add(scroll);
-        add(conversation);
+        //add(conversation);
 
         JTextField msg = new JTextField();
         msg.setBounds(10,200,370,30);
